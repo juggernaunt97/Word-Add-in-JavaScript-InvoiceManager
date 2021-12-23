@@ -99,4 +99,10 @@ This project has adopted the [Microsoft Open Source Code of Conduct](https://ope
 ## Copyright
 Copyright (c) 2015 Microsoft. All rights reserved.
 
-Đây là Bảo
+# QTDA-CNTT nhóm A Plus
+1. Nguyễn Minh Châu - 20158037
+2. Lê Thị Liên - 20175978
+3. Trần Thị Thủy-20176059
+4. Lương Việt Anh - 20176004
+5. Vũ Hữu Quốc Bảo - 20187160
+
