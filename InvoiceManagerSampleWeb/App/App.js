@@ -26,7 +26,7 @@ var app = {};
 
 
        
-        // After initialization, expose a common notification function
+         // After initialization, expose a common notification function
         app.showNotification = function (header, text) {
             $('#notification-message-header').text(header);
             $('#notification-message-body').text(text);
