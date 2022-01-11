@@ -1,6 +1,8 @@
 # [ARCHIVED] Word add-in: Loading data into custom XML parts bound to content controls in a Word document
 
 **Note:** This repo is archived and no longer actively maintained. Security vulnerabilities may exist in the project, or its dependencies. If you plan to reuse or run any code from this repo, be sure to perform appropriate security checks on the code or dependencies first. Do not use this project as the starting point of a production Office Add-in. Always start your production code by using the Office/SharePoint development workload in Visual Studio, or the [Yeoman generator for Office Add-ins](https://github.com/OfficeDev/generator-office), and follow security best practices as you develop the add-in. 
+Vietsub:
+** Lưu ý: ** Kho lưu trữ này đã được lưu trữ và không còn được duy trì tích cực nữa. Các lỗ hổng bảo mật có thể tồn tại trong dự án hoặc các phần phụ thuộc của dự án. Nếu bạn định sử dụng lại hoặc chạy bất kỳ mã nào từ kho lưu trữ này, hãy đảm bảo thực hiện kiểm tra bảo mật thích hợp trên mã hoặc phần phụ thuộc trước tiên. Không sử dụng dự án này làm điểm bắt đầu của Phần bổ trợ Office sản xuất. Luôn bắt đầu mã sản xuất của bạn bằng cách sử dụng khối lượng công việc phát triển Office / SharePoint trong Visual Studio hoặc [Trình tạo Yeoman cho Phần bổ trợ Office] (https://github.com/OfficeDev/generator-office) và làm theo các phương pháp hay nhất về bảo mật khi bạn phát triển bổ trợ.
 
 **Table of contents**
 
@@ -22,7 +24,8 @@ In this sample we show you how to use the [JavaScript API for Office](https://ms
 ![Screenshot of running sample](https://cloud.githubusercontent.com/assets/8550529/9298298/4b980684-4461-11e5-8c00-8f86701e55c2.PNG)
 
 We are creating packing slips from customer order data. The packing slip document is shown on the left of the preceding screen shot, with our Office Add-in on the right as a task pane app. When you select an order using the order id drop-down in the task pane on the right and then click the Populate button, the packing slip document is populated with data from that order.  The sample uses the Javascript API for Office to interact with the Word document by populating custom XML parts defined in the document with order data. These custom XML parts are bound to content controls that define the UI or the document. To simplify this sample, the order data is stored in the same JavaScript file that creates the add-in. However, in a real application, that data could come from a data source anywhere on the web.
-
+Vietsub:
+Chúng tôi đang tạo phiếu đóng gói từ dữ liệu đơn đặt hàng của khách hàng. Tài liệu phiếu đóng gói được hiển thị ở bên trái của ảnh chụp màn hình trước đó, với Phần bổ trợ Office của chúng tôi ở bên phải dưới dạng ứng dụng ngăn tác vụ. Khi bạn chọn đơn hàng bằng cách sử dụng id đơn đặt hàng -xuống dưới trong ngăn tác vụ ở bên phải và sau đó nhấp vào nút Điền, tài liệu phiếu đóng gói được điền dữ liệu từ đơn đặt hàng đó. Mẫu sử dụng API Javascript cho Office để tương tác với tài liệu Word bằng cách điền các phần XML tùy chỉnh được xác định trong tài liệu có dữ liệu đơn hàng. Các phần XML tùy chỉnh này liên kết với các điều khiển nội dung xác định giao diện người dùng hoặc tài liệu. Để đơn giản hóa mẫu này, dữ liệu đơn hàng được lưu trữ trong cùng một tệp JavaScript tạo bổ trợ. Tuy nhiên, trong một ứng dụng thực , dữ liệu đó có thể đến từ một nguồn dữ liệu ở bất kỳ đâu trên web.
 
 <a name="prerequisites"></a>
 ## Prerequisites
