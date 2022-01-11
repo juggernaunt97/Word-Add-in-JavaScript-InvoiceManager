@@ -137,3 +137,27 @@ Một trong những quản trị viên repo sẽ xử lý yêu cầu kéo của 
 Khi quản trị viên repo hài lòng, họ sẽ chấp nhận và hợp nhất yêu cầu kéo.
 Xin chúc mừng, bạn đã đóng góp thành công cho mẫu!
 
+## Câu hỏi thường gặp
+
+### Tôi lấy Thỏa thuận Cấp phép Cộng tác viên ở đâu?
+
+Bạn sẽ tự động nhận được thông báo rằng bạn cần phải ký Thỏa thuận cấp phép của cộng tác viên (CLA) nếu yêu cầu kéo của bạn yêu cầu.
+
+Là một thành viên cộng đồng, bạn phải ký TƯLĐTT trước khi có thể đóng góp số lượng lớn cho dự án này. Bạn chỉ cần hoàn thành và gửi tài liệu TƯLĐTT một lần. Hãy xem xét cẩn thận tài liệu. Bạn có thể được yêu cầu chủ lao động của mình ký vào tài liệu.
+
+### Điều gì xảy ra với những đóng góp của tôi?
+
+Khi bạn gửi các thay đổi của mình, thông qua yêu cầu kéo, nhóm của chúng tôi sẽ được thông báo và sẽ xem xét yêu cầu kéo của bạn. Bạn sẽ nhận được thông báo về yêu cầu kéo của mình từ GitHub; bạn cũng có thể được một người nào đó trong nhóm của chúng tôi thông báo nếu chúng tôi cần thêm thông tin. Chúng tôi bảo lưu quyền chỉnh sửa nội dung bạn gửi về các vấn đề pháp lý, văn phong, rõ ràng hoặc các vấn đề khác.
+
+### Ai phê duyệt yêu cầu kéo?
+
+Quản trị viên của kho lưu trữ phê duyệt các yêu cầu kéo.
+
+### Bao lâu thì tôi sẽ nhận được phản hồi về yêu cầu hoặc vấn đề thay đổi của mình?
+
+Chúng tôi thường xem xét các yêu cầu kéo và phản hồi các vấn đề trong vòng 10 ngày làm việc.
+
+##Nhiêu tai nguyên hơn
+
+Để tìm hiểu thêm về Markdown, hãy xem Daring Fireball.
+Để tìm hiểu thêm về cách sử dụng Git và GitHub, hãy xem phần Trợ giúp GitHub.
