@@ -28,6 +28,7 @@ We are creating packing slips from customer order data. The packing slip documen
 Vietsub:
 Chúng tôi đang tạo phiếu đóng gói từ dữ liệu đơn đặt hàng của khách hàng. Tài liệu phiếu đóng gói được hiển thị ở bên trái của ảnh chụp màn hình trước đó, với Phần bổ trợ Office của chúng tôi ở bên phải dưới dạng ứng dụng ngăn tác vụ. Khi bạn chọn đơn hàng bằng cách sử dụng id đơn đặt hàng -xuống dưới trong ngăn tác vụ ở bên phải và sau đó nhấp vào nút Điền, tài liệu phiếu đóng gói được điền dữ liệu từ đơn đặt hàng đó. Mẫu sử dụng API Javascript cho Office để tương tác với tài liệu Word bằng cách điền các phần XML tùy chỉnh được xác định trong tài liệu có dữ liệu đơn hàng. Các phần XML tùy chỉnh này liên kết với các điều khiển nội dung xác định giao diện người dùng hoặc tài liệu. Để đơn giản hóa mẫu này, dữ liệu đơn hàng được lưu trữ trong cùng một tệp JavaScript tạo bổ trợ. Tuy nhiên, trong một ứng dụng thực , dữ liệu đó có thể đến từ một nguồn dữ liệu ở bất kỳ đâu trên web.
 
+
 <a name="prerequisites"></a>
 ## Prerequisites
 This sample requires the following:  
