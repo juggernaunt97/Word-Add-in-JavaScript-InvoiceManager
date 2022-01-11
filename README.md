@@ -1,6 +1,8 @@
 # [ARCHIVED] Word add-in: Loading data into custom XML parts bound to content controls in a Word document
 
 **Note:** This repo is archived and no longer actively maintained. Security vulnerabilities may exist in the project, or its dependencies. If you plan to reuse or run any code from this repo, be sure to perform appropriate security checks on the code or dependencies first. Do not use this project as the starting point of a production Office Add-in. Always start your production code by using the Office/SharePoint development workload in Visual Studio, or the [Yeoman generator for Office Add-ins](https://github.com/OfficeDev/generator-office), and follow security best practices as you develop the add-in. 
+
+
 ** Lưu ý: ** Kho lưu trữ này đã được lưu trữ và không còn được duy trì tích cực nữa. Các lỗ hổng bảo mật có thể tồn tại trong dự án hoặc các phần phụ thuộc của dự án. Nếu bạn định sử dụng lại hoặc chạy bất kỳ mã nào từ kho lưu trữ này, hãy đảm bảo thực hiện kiểm tra bảo mật thích hợp trên mã hoặc phần phụ thuộc trước tiên. Không sử dụng dự án này làm điểm bắt đầu của Phần bổ trợ Office sản xuất. Luôn bắt đầu mã sản xuất của bạn bằng cách sử dụng khối lượng công việc phát triển Office / SharePoint trong Visual Studio hoặc [Trình tạo Yeoman cho Phần bổ trợ Office] (https://github.com/OfficeDev/generator-office) và làm theo các phương pháp hay nhất về bảo mật khi bạn phát triển bổ trợ.
 
 **Table of contents**
@@ -56,6 +58,9 @@ This solution was created in [Visual Studio](https://msdn.microsoft.com/library/
 ## Description of the code
 
 For a detailed description of this sample, see [Exploring the JavaScript API for Office: Data Binding and Custom XML Parts](https://msdn.microsoft.com/en-us/magazine/dn166930.aspx)
+## Mô tả mã
+
+Để biết mô tả chi tiết về mẫu này, hãy xem [Khám phá API JavaScript cho Office: Liên kết dữ liệu và các phần XML tùy chỉnh] (https://msdn.microsoft.com/en-us/magazine/dn166930.aspx)
 
 <a name="build"></a>
 ## Build and debug
@@ -64,7 +69,13 @@ For a detailed description of this sample, see [Exploring the JavaScript API for
 3. On the **Home** ribbon, find the **Invoice Manager** group and press the **Open** button.
 3. In the app task pane, select an order in the Order ID drop-down list.
 4. Choose Populate to populate the packing slip in the Word document with information from the selected order.
-
+<a name="build"> </a>
+## Xây dựng và gỡ lỗi
+1. Mở tệp InvoiceManager.sln trong Visual Studio.
+2. Nhấn F5 để xây dựng và triển khai bổ trợ mẫu và mở nó trong Word.
+3. Trên ruy-băng ** Trang chủ **, tìm nhóm ** Trình quản lý hóa đơn ** và nhấn nút ** Mở **.
+3. Trong ngăn tác vụ ứng dụng, hãy chọn một đơn hàng trong danh sách ID đơn hàng thả xuống.
+4. Chọn Populate để điền vào phiếu đóng gói trong tài liệu Word với thông tin từ thứ tự đã chọn.
 
 You can view a list of the custom XML parts in a document by opening the XML Mapping pane in Word (Developer tab).
 
