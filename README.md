@@ -4,6 +4,9 @@
 Vietsub:
 ** Lưu ý: ** Kho lưu trữ này đã được lưu trữ và không còn được duy trì tích cực nữa. Các lỗ hổng bảo mật có thể tồn tại trong dự án hoặc các phần phụ thuộc của dự án. Nếu bạn định sử dụng lại hoặc chạy bất kỳ mã nào từ kho lưu trữ này, hãy đảm bảo thực hiện kiểm tra bảo mật thích hợp trên mã hoặc phần phụ thuộc trước tiên. Không sử dụng dự án này làm điểm bắt đầu của Phần bổ trợ Office sản xuất. Luôn bắt đầu mã sản xuất của bạn bằng cách sử dụng khối lượng công việc phát triển Office / SharePoint trong Visual Studio hoặc [Trình tạo Yeoman cho Phần bổ trợ Office] (https://github.com/OfficeDev/generator-office) và làm theo các phương pháp hay nhất về bảo mật khi bạn phát triển bổ trợ.
 
+
+** Lưu ý: ** Kho lưu trữ này đã được lưu trữ và không còn được duy trì tích cực nữa. Các lỗ hổng bảo mật có thể tồn tại trong dự án hoặc các phần phụ thuộc của dự án. Nếu bạn định sử dụng lại hoặc chạy bất kỳ mã nào từ kho lưu trữ này, hãy đảm bảo thực hiện kiểm tra bảo mật thích hợp trên mã hoặc phần phụ thuộc trước tiên. Không sử dụng dự án này làm điểm bắt đầu của Phần bổ trợ Office sản xuất. Luôn bắt đầu mã sản xuất của bạn bằng cách sử dụng khối lượng công việc phát triển Office / SharePoint trong Visual Studio hoặc [Trình tạo Yeoman cho Phần bổ trợ Office] (https://github.com/OfficeDev/generator-office) và làm theo các phương pháp hay nhất về bảo mật khi bạn phát triển bổ trợ.
+
 **Table of contents**
 
 * [Summary](#summary)
@@ -26,6 +29,7 @@ In this sample we show you how to use the [JavaScript API for Office](https://ms
 We are creating packing slips from customer order data. The packing slip document is shown on the left of the preceding screen shot, with our Office Add-in on the right as a task pane app. When you select an order using the order id drop-down in the task pane on the right and then click the Populate button, the packing slip document is populated with data from that order.  The sample uses the Javascript API for Office to interact with the Word document by populating custom XML parts defined in the document with order data. These custom XML parts are bound to content controls that define the UI or the document. To simplify this sample, the order data is stored in the same JavaScript file that creates the add-in. However, in a real application, that data could come from a data source anywhere on the web.
 Vietsub:
 Chúng tôi đang tạo phiếu đóng gói từ dữ liệu đơn đặt hàng của khách hàng. Tài liệu phiếu đóng gói được hiển thị ở bên trái của ảnh chụp màn hình trước đó, với Phần bổ trợ Office của chúng tôi ở bên phải dưới dạng ứng dụng ngăn tác vụ. Khi bạn chọn đơn hàng bằng cách sử dụng id đơn đặt hàng -xuống dưới trong ngăn tác vụ ở bên phải và sau đó nhấp vào nút Điền, tài liệu phiếu đóng gói được điền dữ liệu từ đơn đặt hàng đó. Mẫu sử dụng API Javascript cho Office để tương tác với tài liệu Word bằng cách điền các phần XML tùy chỉnh được xác định trong tài liệu có dữ liệu đơn hàng. Các phần XML tùy chỉnh này liên kết với các điều khiển nội dung xác định giao diện người dùng hoặc tài liệu. Để đơn giản hóa mẫu này, dữ liệu đơn hàng được lưu trữ trong cùng một tệp JavaScript tạo bổ trợ. Tuy nhiên, trong một ứng dụng thực , dữ liệu đó có thể đến từ một nguồn dữ liệu ở bất kỳ đâu trên web.
+
 
 <a name="prerequisites"></a>
 ## Prerequisites
@@ -56,6 +60,9 @@ This solution was created in [Visual Studio](https://msdn.microsoft.com/library/
 ## Description of the code
 
 For a detailed description of this sample, see [Exploring the JavaScript API for Office: Data Binding and Custom XML Parts](https://msdn.microsoft.com/en-us/magazine/dn166930.aspx)
+## Mô tả mã
+
+Để biết mô tả chi tiết về mẫu này, hãy xem [Khám phá API JavaScript cho Office: Liên kết dữ liệu và các phần XML tùy chỉnh] (https://msdn.microsoft.com/en-us/magazine/dn166930.aspx)
 
 <a name="build"></a>
 ## Build and debug
@@ -64,7 +71,13 @@ For a detailed description of this sample, see [Exploring the JavaScript API for
 3. On the **Home** ribbon, find the **Invoice Manager** group and press the **Open** button.
 3. In the app task pane, select an order in the Order ID drop-down list.
 4. Choose Populate to populate the packing slip in the Word document with information from the selected order.
-
+<a name="build"> </a>
+## Xây dựng và gỡ lỗi
+1. Mở tệp InvoiceManager.sln trong Visual Studio.
+2. Nhấn F5 để xây dựng và triển khai bổ trợ mẫu và mở nó trong Word.
+3. Trên ruy-băng ** Trang chủ **, tìm nhóm ** Trình quản lý hóa đơn ** và nhấn nút ** Mở **.
+3. Trong ngăn tác vụ ứng dụng, hãy chọn một đơn hàng trong danh sách ID đơn hàng thả xuống.
+4. Chọn Populate để điền vào phiếu đóng gói trong tài liệu Word với thông tin từ thứ tự đã chọn.
 
 You can view a list of the custom XML parts in a document by opening the XML Mapping pane in Word (Developer tab).
 
