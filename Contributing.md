@@ -81,3 +81,59 @@ We typically review pull requests and respond to issues within 10 business days.
 
 - To learn more about Markdown, see [Daring Fireball](http://daringfireball.net/).
 - To learn more about using Git and GitHub, check out the [GitHub Help section](http://help.github.com/). 
+
+#Contribute cho mẫu mã này
+
+Cảm ơn bạn đã quan tâm đến mẫu này! Những đóng góp và cải tiến của bạn sẽ giúp ích cho cộng đồng nhà phát triển.
+
+## Cách đóng góp
+
+Có một số cách bạn có thể đóng góp cho mẫu này: cung cấp các nhận xét về mã tốt hơn, khắc phục các sự cố mở và thêm các tính năng mới.
+
+### Cung cấp các nhận xét về mã tốt hơn
+
+Nhận xét về mã làm cho các mẫu mã thậm chí còn tốt hơn bằng cách giúp các nhà phát triển học cách sử dụng mã chính xác trong các ứng dụng của riêng họ. Nếu bạn phát hiện ra một lớp, phương pháp hoặc phần mã mà bạn nghĩ có thể sử dụng mô tả tốt hơn, thì hãy tạo một yêu cầu kéo với các nhận xét mã của bạn .
+
+Nói chung, chúng tôi muốn các nhận xét mã của mình tuân theo các nguyên tắc sau:
+
+Bất kỳ mã nào có tài liệu liên quan được hiển thị trong IDE (chẳng hạn như IntelliSense hoặc JavaDocs) đều có nhận xét về mã.
+Các lớp, phương thức, tham số và giá trị trả về có mô tả rõ ràng.
+Các ngoại lệ và lỗi được ghi lại.
+Các chú thích tồn tại cho bất kỳ điều gì đặc biệt hoặc đáng chú ý về mã.
+Các phần mã có các thuật toán phức tạp có nhận xét thích hợp mô tả những gì chúng làm.
+Mã được thêm từ Stack Overflow hoặc bất kỳ nguồn nào khác, đều được ghi rõ ràng.
+### Khắc phục sự cố mở
+
+Đôi khi chúng tôi gặp rất nhiều vấn đề và có thể khó theo kịp. Nếu bạn có giải pháp cho một vấn đề còn mở chưa được giải quyết, hãy khắc phục sự cố và sau đó gửi yêu cầu kéo.
+
+### Thêm một tính năng mới
+
+Các tính năng mới thật tuyệt vời! Trước tiên, hãy nhớ kiểm tra với quản trị viên kho lưu trữ để đảm bảo tính năng này sẽ phù hợp với mục đích của mẫu. Bắt đầu bằng cách mở một vấn đề trong kho lưu trữ đề xuất và mô tả tính năng. Quản trị viên kho lưu trữ sẽ phản hồi và có thể hỏi để biết thêm thông tin. Nếu quản trị viên đồng ý với tính năng mới, hãy tạo tính năng và gửi yêu cầu kéo.
+
+## Nguyên tắc đóng góp
+
+Chúng tôi có một số nguyên tắc để giúp duy trì repo và mã lành mạnh cho mọi người.
+
+### Thỏa thuận Cấp phép Đóng góp
+
+Đối với hầu hết các khoản đóng góp, bạn sẽ được yêu cầu ký Thỏa thuận cấp phép đóng góp (CLA). Điều này sẽ xảy ra khi bạn gửi yêu cầu kéo yêu cầu có thể được tiến hành. Hãy đọc kỹ bản TƯLĐTT vì bạn có thể cần phải được chủ nhân của mình ký tên.
+
+### Danh sách kiểm tra đóng góp mã
+
+Đảm bảo đáp ứng tất cả các yêu cầu trong danh sách sau trước khi gửi yêu cầu kéo:
+
+Làm theo kiểu mã phù hợp với nền tảng và ngôn ngữ trong repo này. Ví dụ: mã Android tuân theo các quy ước về kiểu được tìm thấy trong hướng dẫn Kiểu mã cho cộng tác viên.
+Kiểm tra mã của bạn.
+Kiểm tra giao diện người dùng kỹ lưỡng để đảm bảo không có gì bị phá vỡ bởi sự thay đổi của bạn.
+Giữ kích thước thay đổi mã của bạn hợp lý. Nếu chủ sở hữu kho lưu trữ không thể xem xét thay đổi mã của bạn trong vòng 4 giờ hoặc ít hơn, yêu cầu kéo của bạn có thể không được xem xét và phê duyệt nhanh chóng.
+Tránh các thay đổi. Người đánh giá sẽ kiểm tra những khác biệt không cần thiết giữa mã của bạn và mã gốc. Các thay đổi về khoảng trắng được gọi ra cùng với mã của bạn. Hãy đảm bảo rằng các thay đổi của bạn sẽ giúp cải thiện nội dung.
+### Gửi yêu cầu kéo tới nhánh chính
+
+Khi bạn đã hoàn thành công việc của mình và sẵn sàng sáp nhập vào kho lưu trữ chính, hãy làm theo các bước sau. Lưu ý: các yêu cầu kéo thường được xem xét trong vòng 10 ngày làm việc. Nếu yêu cầu kéo của bạn được chấp nhận, bạn sẽ được ghi nhận vì đã gửi.
+
+Gửi yêu cầu kéo của bạn chống lại nhánh chính.
+Ký TƯLĐTT, nếu bạn chưa làm như vậy.
+Một trong những quản trị viên repo sẽ xử lý yêu cầu kéo của bạn, bao gồm cả việc thực hiện đánh giá mã. Nếu có câu hỏi, thảo luận hoặc yêu cầu thay đổi trong yêu cầu kéo, hãy nhớ trả lời.
+Khi quản trị viên repo hài lòng, họ sẽ chấp nhận và hợp nhất yêu cầu kéo.
+Xin chúc mừng, bạn đã đóng góp thành công cho mẫu!
+
